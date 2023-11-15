@@ -43,6 +43,12 @@ def register():
             return render_template('register.html', error='Passwords do not match')
     return render_template('register.html')
 
+@app.route('/logout')
+def logout():
+    session.pop('username', None)  
+    return redirect(url_for('login')) 
+
+
 @app.route('/welcome')
 def welcome():
     if 'username' in session:

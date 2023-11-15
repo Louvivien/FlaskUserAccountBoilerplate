@@ -1,7 +1,14 @@
-# flask-authentication
 
+## Flask User Account Boilerplate
+
+This is a Boilerplate app using Flask with a User Account
+It is based on this tutorial: https://pytechacademy.medium.com/user-authentication-with-flask-from-login-to-a-welcome-page-110f685f5e6f#:~:text=In%20this%20tutorial%2C%20we%27ve%20covered,in%2C%20and%20access%20personalized%20content
+
+
+## flask-authentication
 
 This Flask project demonstrates user authentication using MongoDB as the database. It provides a secure authentication system that allows users to sign up, log in, and access protected routes.
+
 
 ## Project Structure
 
