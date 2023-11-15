@@ -42,7 +42,7 @@ This Flask project demonstrates user authentication using MongoDB as the databas
 
 ### Usage
 
-1. Configure MongoDB URI in the `config.py` file:
+1. Configure MongoDB URI in the `config.py.example` file, rename it config.py
 
    ```python
    MONGO_URI = "your url from Atlas"
